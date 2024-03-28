@@ -1,0 +1,85 @@
+.startComponent {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.434) 0% 100%), url(../../Assets/imgs/BG7.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    font-size: 65px;
+    margin-bottom: 40px;
+}
+.parag{
+ font-size: 20px;
+ text-align: center;
+ /* width: 50%; */
+ margin: auto;
+ color: rgb(212, 212, 212);
+}
+
+.lets {
+    color: #75c9f0;
+    text-shadow: 2px 9px 3px rgb(0, 73, 93);
+}
+
+.play {
+    color: #f319f3;
+    text-shadow: 2px 9px 3px rgb(93, 0, 92);
+}
+
+.btns {
+    /* position: absolute;
+    top: 46%;
+    left: 39%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 400px) ;
+}
+
+.one {
+    padding: 15px 35px;
+    color: #f319f3;
+    background-color: transparent;
+    border: 1px solid #f319f3;
+    border-radius: 0px 15px 15px 15px;
+    font-size: 25px;
+    transition: all 0.2s ease-in-out;
+    margin-right: 10px;
+}
+
+.two {
+    color: #75c9f0;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid #75c9f0;
+    border-radius: 15px 0 15px 15px;
+    font-size: 25px;
+    transition: all 0.2s ease-in-out;
+}
+
+.one:hover,
+.two:hover {
+    transform: translateY(10px);
+}
+
+.one:hover{
+    transform: translateY(10px);
+    box-shadow: 0 0 10px 15px rgba(0, 57, 87, 0.324);
+}
+.two:hover {
+    transform: translateY(10px);
+    box-shadow: 0 0 10px 15px rgba(80, 0, 87, 0.324);
+}
+
+@media only screen and (min-width: 992px) {
+    .parag{
+        width: 70%;
+    }
+}
+
+
+
+
